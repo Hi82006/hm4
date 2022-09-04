@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+  }
+*::after,
+*::before{
+      box-sizing: border-box;
+}
+
+a{  text-decoration: none;
+}
+.dot::after{
+    content: ".";
+    color: #FAE800;
+}
+.wdot::after{
+    content: ".";
+    color: #FFFFFF
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+li{
+    list-style: none;
+}
+header{
+    background: #000000;;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.cont-header{
+    width: 100%;
+    min-height: 64px;
+
+}
+.header-text{
+    width: 34.782%;
+    vertical-align: middle;
+    padding-left: 2.96%;
+    padding-block: 20px;
+}
+.header-icons{
+    vertical-align: middle;
+    text-align: end;
+    width: 65.218%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header-text>h2{
+    font-family: 'Inter';
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+.header-icons>a{
+    display: inline-block;
+    min-width: 80px;
+    max-width: 120px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.gmail-icon,
+.twitter-icon{
+    display: inline-block;
+    
+}
+.gmail-icon>img{
+    width: 24px;
+    height: 24px;
+}
+.twitter-icon{
+    margin-left: 3px;
+    margin-right: 9.75px;
+}
+.gmail-icon{
+    margin-right: 2.06%;
+}
+.bg{
+    background: #FAE800;
+}
+.hero{
+    padding-top: 120px ;
+    padding-bottom: 128px;
+    max-width: 1081px;
+    text-align: center;
+}
+.hero>h1{
+    margin: 0 auto;
+    width: 92.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    margin-bottom: 2px;
+}
+.hero>span{
+    display: block;
+    width: 46.25%;
+    max-width: 500px;
+    min-width: 366px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+}
+.h2{
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.about-me{
+    max-width: 552px;
+    margin: 32px auto ;
+}
+.about-me>h2{
+    text-align: center;
+    width: 91%;
+    margin-bottom: 82px;
+    color: #000000;
+}
+.about-me>span{
+    font-family: 'SourceSansPro';
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.sect-project{
+    display: block;
+}
+.conteiner{
+    max-width: 892px;
+    margin: 32px auto;
+    padding: 0;
+}
+.card-frame{
+    width: 100%;
+    /* min-height: 384px; */
+    margin-bottom: 16px;
+    margin-top: 16px;
+     
+}
+
+.project-card{
+    margin: 16px auto;
+    width: 30.72%;
+    height: 384px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.743515) 6.67%, rgba(0, 0, 0, 0.723368) 13.33%, rgba(0, 0, 0, 0.688755) 20%, rgba(0, 0, 0, 0.639441) 26.67%, rgba(0, 0, 0, 0.576169) 33.33%, rgba(0, 0, 0, 0.501087) 40%, rgba(0, 0, 0, 0.417982) 46.67%, rgba(0, 0, 0, 0.332018) 53.33%, rgba(0, 0, 0, 0.248913) 60%, rgba(0, 0, 0, 0.173831) 66.67%, rgba(0, 0, 0, 0.110558) 73.33%, rgba(0, 0, 0, 0.0612449) 80%, rgba(0, 0, 0, 0.0266325) 86.67%, rgba(0, 0, 0, 0.0064854) 93.33%, rgba(0, 0, 0, 0) 100%), url(../img/Rectangle.png);
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+    border-radius: 10px;
+}
+.c-m{
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.project>span{
+    position: absolute;
+    width: 76.47%;
+    left: 6.25%;
+    right: 17.28%;
+    top: 3.39%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.see{
+    display: block;
+    margin: 16px auto;
+    width: 160px;
+    height: 48px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: #F8C822;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+.home-logo{
+    background: url(../img/house.svg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 17px;
+    height: 18.12px;
+    left: 8px;
+    top: 357.88px;
+}
+.cont-me{
+    margin-top: 32px;
+    max-width: 693px;
+    
+}
+.cont-me>h2{
+    margin-bottom: 60px;
+}
+.snail{
+    position: relative;
+    width: 47.33%;
+    height: 497.18px;;
+    background: url(../img/send.png);
+    filter: drop-shadow(0px 2px 4px rgba(100, 100, 100, 0.498039));
+    border-radius: 10px;
+    text-align: center;
+}
+.snail>span,
+.emeil>span{
+   
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+
+}
+.snail>span{
+    top: 397px;
+    right: 73px;
+}
+.emeil>span{
+    text-align: center;
+    top: 364px;
+    left: 53px;
+    width: 216px;
+}
+.home-logo1{
+    background: url(../img/house2.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 32.64px;
+    height: 31.25px;
+    left: 149px;
+    top: 438.88px;
+    border: none;
+}
+.emeil{
+    position: relative;
+    width: 47.33%;
+    height: 497.18px;
+    background: url(../img/emeil.png);
+    filter: drop-shadow(0px 2px 4px rgba(100, 100, 100, 0.498039));
+    border-radius: 10px;
+}
+.home-logo2{
+    background: url(../img/telegram.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 32.64px;
+    height: 31.25px;
+    left: 141px;
+    top: 436.88px;
+    border: none;
+}
+.foot{
+    margin: 32px 36.5px 0;
+    vertical-align: bottom;
+    padding: 20px 0;
+}
+.foot-text{
+    width: 16.1%;
+    height: 5.64%;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 24px;
+    /* line-height: 29px; */
+}
+.foot-url{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+}
+.foot-url>li{
+    display: inline-block;
+}
+.link{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    padding: 10px 0;
+    margin-right: 10px;
+}
